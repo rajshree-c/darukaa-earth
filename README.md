@@ -6,7 +6,7 @@ Darukaa.Earth is a full-stack natural-capital workspace for creating conservatio
 
 - **Frontend:** React, TypeScript, Vite, Mapbox GL JS + Mapbox Draw, Chart.js.
 - **API:** FastAPI, SQLAlchemy 2, GeoAlchemy2, JWT/Bcrypt authentication.
-- **Data:** PostgreSQL 16 with PostGIS. Site geometry is a `POLYGON` in SRID 4326.
+- **Data:** PostgreSQL with PostGIS. Site geometry is a `POLYGON` in SRID 4326.
 - **Deployment:** the static `frontend` deploys directly to Vercel; `backend` runs with Uvicorn/Gunicorn on Render; use a managed PostGIS database.
 
 ```
