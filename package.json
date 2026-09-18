@@ -1,0 +1,7 @@
+{
+  "name": "darukaa-earth",
+  "private": true,
+  "scripts": {"prepare": "husky", "lint": "npm --prefix frontend run lint", "format": "npm --prefix frontend run format"},
+  "devDependencies": {"husky": "^9.1.7", "lint-staged": "^15.2.11"},
+  "lint-staged": {"frontend/*.{ts,tsx,css,json,md}": "npm --prefix frontend exec prettier --write", "frontend/*.{ts,tsx}": "npm --prefix frontend exec eslint --fix"}
+}
