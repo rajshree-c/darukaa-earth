@@ -2,6 +2,18 @@
 
 Darukaa.Earth is a full-stack natural-capital workspace for creating conservation projects, drawing geographical sites, and reviewing carbon and biodiversity trends. It includes immediately usable seeded demo data and responsive web UI.
 
+## 🔗 Project Links
+
+- **Live Demo:** https://darukaa-earth-virid.vercel.app
+- **GitHub Repository:** https://github.com/rajshree-c/darukaa-earth
+- **Backend API:** https://darukaa-backend-khaw.onrender.com
+- **Backend Health Check:** https://darukaa-backend-khaw.onrender.com/health
+
+## 🔐 Demo Credentials
+
+**Email:** `demo@darukaa.earth`  
+**Password:** `DemoPass123!`
+
 ## Architecture and stack
 
 - **Frontend:** React, TypeScript, Vite, Mapbox GL JS + Mapbox Draw, Chart.js.
